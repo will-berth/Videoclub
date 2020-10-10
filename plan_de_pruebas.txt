@@ -1,0 +1,98 @@
+Historial de versiones: 
+Fecha	Versión	Descripción	Autor
+25/09/2020	1.0	Que el sistema lleve acabo el registro de películas. 	José Calixto Gómez Gómez
+25/09/2020	1.0	Que el sistema si cumpla los requisitos funcionales. 	Neftalí Enoc Cruz Encinos
+25/09/2020	1.0	Identificar un usuario en el sistema.	Wilberth de Jesús López Peñate
+
+ 
+Introducción
+Propósito:
+Juntar toda la información posible que pueda ayudarnos a realizar las pruebas y controlar, en la cual se imagina una posible respuesta esperada, y así poder identificar el alcance que podrá tener, al igual el enfoque que se esta haciendo al igual se puede correr riesgos si no se realiza adecuadamente. 
+Alcance: 
+Elemento de pruebas:
+?	Plan de prueba unitarias
+?	Plan de prueba de integración 
+?	Plan de prueba de sistema
+Componentes a ser probados: 
+?	Registrar películas
+?	Requisitos funcionales
+?	Identificar un usuario en el sistema 
+Objetivos de las pruebas:
+?	Verificar la conectividad de los dispositivos y aplicaciones
+?	Efectuar de manera correcta cada uno de los módulos
+?	Realizar de manera funcional
+Detalle del orden de ejecución de los componentes:
+?	Registrar películas
+?	Requisitos Funcionales
+?	Identificar un usuario en el sistema
+Responsabilidad de la prueba:
+Las pruebas son responsabilidad del equipo de proyecto en conjunto con el profesor encargado de la materia Evaluación y mejora para el desarrollo de software. 
+Referencias: 
+Requerimientos de software 
+Especificación de caso de uso
+Propósito de la evaluación y motivación para la prueba:
+Fundamento:
+La empresa Hollywood requiere un sistema de … que facilite el trabajo administrativo y permita tener un mayor control sobre su movimiento diario. El sistema de información esta compuesto por … módulos. 
+Propósito de la evaluación: 
+Tiene la funcionalidad de que se prueba cada uno de los módulos descritos anteriormente y se obtenga los resultados previamente descrito y esperado por el cliente. 
+Táctica de la prueba: 
+Registrar clientes
+Objetivo de la Táctica:	Verificar que una película es incluida en la bd.
+táctica	Por medio del formulario de películas ingresar en los campos los datos solicitados y presionar registrar. 
+Se enviaran datos incorrectos en los campos para verificar que los avisos de información invalida sean mostrados. 
+Herramientas necesarias 	HeidiSQL
+HTML
+VS
+Criterio de éxito	Se visualizará en la bd, el ingreso de la nueva película y en caso de ser incorrecto no se adicionará a la bd. 
+Consideraciones especiales	Ninguna
+
+Requisitos funcionales
+Objetivo de la táctica:	Que todos los componentes sean capaces de soportar
+Táctica:	Checar los requisitos de cada programa y hardware del equipo que sea el adecuado.
+Herramientas necesarias	Sistema operativo
+Enlazadores
+Base de datos
+Hardware
+Criterio de éxito	Que soporte el sistema para poder realizar el servicio CRUD.
+Consideraciones especiales	Todos los procesos serán invocados manualmente.
+
+
+ 
+Identificar un usuario en el sistema
+Objetivo de la táctica:	Verificar que el usuario comprobando las credenciales introducidos por el usuario con los datos almacenados en la bd
+Táctica:	El usuario introduce sus datos en el formulario.
+Se crea una sesión de usuario 
+Herramientas necesarias:	Bases de datos
+Html
+Criterio de éxito:	El usuario accede a la aplicación y se crea la sesión de usuario.
+Consideraciones especiales:	Ninguno
+
+Criterio de Entrada y Salida:
+Plan de prueba:
+ 
+ 
+ 
+Producibles
+Resumen de la evaluación de las pruebas: 
+Pudimos observar los grandes cambios que se hacen junto con las versiones que han ido modificando, se aprendió mucho, aunque al final se crearon nuevos repositorios.  Mas adelante verán las versiones que se hicieron. 
+Registro de incidentes y requerimientos de cambio
+Reporte de defectos:
+
+Error	Fecha	Versión	Revisado por
+Ninguno			
+
+Elementos base del software en el ambiente de la prueba
+Nombre del software	Versión	Tipo y otras notas
+Git		Software de control
+
+Responsabilidades, roles y necesidades de entrenamiento
+Personas y roles:
+Recursos Humanos
+Rol	Recursos Mínimos Recomendados	Responsabilidades o comentarios específicos.
+Gerente de pruebas	Diana Ester López Santiz	Planeación de la logística 
+Realizar la documentación de las pruebas
+Persona que hace las pruebas	Wilberth de Jesús López Peñate	Implementar y realizar las pruebas.
+Documentar los incidentes.
+Administrador de la base de datos	Neftalí Enoc Encinos Cruz	Soporte y administración de los datos de prueba. 
+Tester	José Calixto Gómez Gómez	Analiza los resultados finales
+Analista	Diego Alfredo Meza Hernández	Analiza todo el trabajo.
